@@ -6,10 +6,10 @@ module.exports.absolute = function(number) {
   return (number >= 0)? number : -number;
 }
 
-// Testing strings 
-// module.exports.greet = function(name) { 
-//   return 'Welcome ' + name; 
-// }
+// Testing strings -> When testing strings make sure your tests are not too specific.
+module.exports.greet = function(name) { 
+  return 'Welcome ' + name; 
+}
 
 // // Testing arrays 
 // module.exports.getCurrencies = function() { 
